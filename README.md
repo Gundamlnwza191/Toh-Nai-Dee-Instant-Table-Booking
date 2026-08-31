@@ -1,8 +1,7 @@
 #  Toh Nai Dee – Instant Table Booking
 
-## 🛠️ Tech Stack
-### ⚡ **Language:** Swift
-### 🔥 **Online Database:** Firebase
+###  **Language:** Swift
+###  **Online Database:** Firebase
 
 ---
 > An iOS table reservation app built with **Swift** and **Firebase**, featuring separate logins for customers and staff. Users can customize table bookings (seating location, time, guest count) and chat directly with support in real time..

@@ -1,7 +1,5 @@
 #  Toh Nai Dee – Instant Table Booking
 
-#  Toh Nai Dee – Instant Table Booking
-
 ## 🛠️ Tech Stack
 ### ⚡ **Language:** Swift
 ### 🔥 **Online Database:** Firebase

@@ -13,11 +13,14 @@
 
 ![Project Structure Preview](./Preview-app.png)
 
-![Project Structure Preview](./Preview-app.png)
 
 > *Overview of the core Xcode project hierarchy and directory layout.*
 
 ---
+
+## 🖼️ Project Overview
+
+ **[Click to view all app screen ]([https://www.figma.com/design/YbvrcCQ1YkWezTiVdje6cg/Web-Sunshine?node-id=0-1&t=lWkhgL9DnHbDUpbr-1](https://drive.google.com/drive/folders/1IEokzFlAO95_gXms2IVkL3ffxDVKakUo?usp=drive_link))**
 
 ## 🛠️ Getting Started (Setup Guide)
 

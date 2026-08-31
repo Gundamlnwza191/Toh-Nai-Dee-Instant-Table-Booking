@@ -1,31 +1,42 @@
-# คู่มือการเปิดใช้งานโปรเจค Toh Nai Dee Instant Table Booking (Swift / Xcode)
+# Toh Nai Dee Instant Table Booking – Setup Guide (Swift / Xcode)
 
-หากคุณได้รับโฟลเดอร์โปรเจคมาเรียบร้อยแล้ว ให้ทำตามขั้นตอนด้านล่างนี้เพื่อเปิดใช้งานและรันระบบบนเครื่องคอมพิวเตอร์ของคุณ *(หมายเหตุ: จำเป็นต้องใช้เครื่อง Mac และติดตั้งโปรแกรม Xcode เรียบร้อยแล้ว)*
+Follow the steps below to set up and run the project on your local machine.  
+*(Note: macOS and Xcode are required.)*
 
 ---
 
-### 1. ย้ายโฟลเดอร์โปรเจคไปยังตำแหน่งที่ต้องการ
-ให้คัดลอกหรือย้ายโฟลเดอร์โปรเจค **Smart Virtual Cafe Table Reservation System** ไปไว้ในตำแหน่งที่ต้องการบนเครื่อง Mac ของคุณ (เช่น Desktop หรือ Documents)
+## 📁 Project Structure
 
-### 2. เปิดโปรเจคด้วย Xcode
-ภายในโฟลเดอร์โปรเจค ให้มองหาไฟล์ที่มีนามสกุล **`.xcodeproj`** หรือ **`.xcworkspace`**
-* ให้ทำการ **ดับเบิ้ลคลิก (Double-Click)** ที่ไฟล์นั้นเพื่อเปิดโปรเจคขึ้นมาในโปรแกรม Xcode
-* *(คำแนะนำ: หากมีทั้งสองไฟล์ ให้เลือกเปิดไฟล์ `.xcworkspace` เป็นหลัก)*
+![Project Structure Preview](./Preview-app.png/)
 
-### 3. ตรวจสอบการโหลด Dependencies (ถ้ามี)
-หากโปรเจคนี้มีการใช้ Package เสริม:
-* **Swift Package Manager (SPM):** Xcode จะทำการดาวน์โหลดให้อัตโนมัติเมื่อเปิดโปรเจค ให้สังเกตแถบสถานะด้านบน รอจนกว่าจะขึ้นคำว่า `Ready`
-* **CocoaPods:** (เฉพาะในกรณีที่โปรเจคใช้ CocoaPods) ให้เปิด Terminal แล้ว `cd` เข้าโฟลเดอร์โปรเจค จากนั้นพิมพ์คำสั่ง `pod install` ก่อนเปิดไฟล์ `.xcworkspace`
+> *Overview of the core Xcode project hierarchy and directory layout.*
 
-### 4. เลือกอุปกรณ์จำลอง (Simulator)
-ที่แถบเมนูด้านบนของ Xcode (บริเวณแถบเครื่องมือตรงกลาง) ให้คลิกเลือกอุปกรณ์จำลองที่คุณต้องการใช้ทดสอบระบบ เช่น **iPhone 15**, **iPad** หรือ **My Mac** (ขึ้นอยู่กับว่าตัวแอปพลิเคชันออกแบบมาสำหรับแพลตฟอร์มใด)
+---
 
-### 5. รันระบบ (Run Project)
-* กดปุ่ม **Play (รูปสามเหลี่ยม ⏸️)** ที่มุมซ้ายบนของหน้าต่าง Xcode
-* หรือใช้คีย์ลัดบนคีย์บอร์ดโดยการกด **`Command + R` (⌘ + R)**
+## 🛠️ Getting Started
 
-### 6. เริ่มต้นใช้งานระบบ
-โปรแกรม Xcode จะทำการคอมไพล์ระบบสักครู่ จากนั้นหน้าต่าง Simulator จะเปิดขึ้นมาพร้อมกับแอปพลิเคชัน **POS Restaurant** ซึ่งคุณสามารถกดทดสอบและใช้งานระบบขายหน้าร้านได้ทันที
+### 1. Move Project Folder
+Copy or move the **Smart Virtual Cafe Table Reservation System** project folder to your preferred directory on your Mac (e.g., `Desktop` or `Documents`).
+
+### 2. Open Project with Xcode
+Inside the project folder, locate the file with the extension **`.xcodeproj`** or **`.xcworkspace`**:
+* Double-click the file to open the project in Xcode.
+* *(Recommended: If both files are present, open **`.xcworkspace`**).*
+
+### 3. Verify Dependencies (If applicable)
+If the project relies on external packages:
+* **Swift Package Manager (SPM):** Xcode will resolve packages automatically upon opening. Observe the top status bar and wait until it displays `Ready`.
+* **CocoaPods:** If CocoaPods is used, open Terminal, navigate (`cd`) to the project directory, and run `pod install` prior to opening `.xcworkspace`.
+
+### 4. Select a Target Simulator
+From the Xcode top toolbar, select your desired test device/simulator (e.g., **iPhone 15**, **iPad**, or **My Mac**).
+
+### 5. Run the Project
+* Click the **Play (▶️)** button at the top-left corner of the Xcode window.
+* Or press the keyboard shortcut **`Command + R` (`⌘ + R`)**.
+
+### 6. Launch & Test
+Xcode will build and compile the application. Once complete, the Simulator will launch automatically, ready for testing.
 
 ---
 

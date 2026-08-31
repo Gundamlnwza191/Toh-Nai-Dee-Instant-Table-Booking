@@ -5,9 +5,14 @@
 ### 🔥 **Online Database:** Firebase
 
 ---
-> An iOS table reservation system built with **Swift** for the frontend application and powered by **Firebase** for backend services and real-time database management.
+> An iOS table reservation app built with **Swift** and **Firebase**, featuring separate logins for customers and staff. Users can customize table bookings (seating location, time, guest count) and chat directly with support in real time..
 
 ---
+
+## 🖼️ Project Overview
+
+ **[Click here to view the complete mobile application user flow ](https://drive.google.com/drive/folders/1IEokzFlAO95_gXms2IVkL3ffxDVKakUo?usp=drive_link)**
+
 
 ## 📁 Project Structure
 
@@ -18,9 +23,6 @@
 
 ---
 
-## 🖼️ Project Overview
-
- **[Click to view all app screen ](https://drive.google.com/drive/folders/1IEokzFlAO95_gXms2IVkL3ffxDVKakUo?usp=drive_link)**
 
 ## 🛠️ Getting Started (Setup Guide)
 

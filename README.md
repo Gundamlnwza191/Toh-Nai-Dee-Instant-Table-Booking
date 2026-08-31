@@ -1,14 +1,19 @@
-# 📱 Toh Nai Dee – Instant Table Booking
+#  Toh Nai Dee – Instant Table Booking
 
-![Swift](https://img.shields.org/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Firebase](https://img.shields.org/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Xcode](https://img.shields.org/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
+#  Toh Nai Dee – Instant Table Booking
 
+## 🛠️ Tech Stack
+### ⚡ **Language:** Swift
+### 🔥 **Online Database:** Firebase
+
+---
 > An iOS table reservation system built with **Swift** for the frontend application and powered by **Firebase** for backend services and real-time database management.
 
 ---
 
 ## 📁 Project Structure
+
+![Project Structure Preview](./Preview-app.png)
 
 ![Project Structure Preview](./Preview-app.png)
 

@@ -59,7 +59,4 @@ Xcode will build and compile the application. Once complete, the Simulator will 
 
 ---
 
-## Developer
 
-**Watcharapoj Vichachang**
-* GitHub: [https://github.com/Gundamlnwza191](https://github.com/Gundamlnwza191)
